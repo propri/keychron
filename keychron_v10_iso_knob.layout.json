@@ -1,7 +1,24 @@
 {
   "name": "Keychron V10 ISO Knob",
   "vendorProductId": 875824035,
-  "macros": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+  "macros": [
+    "",
+    "{+KC_LCTL}{+KC_CAPS}a{-KC_CAPS}{-KC_LCTL}{+KC_LCTL}j{-KC_LCTL}",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
   "layers": [
     [
       "KC_MUTE",
@@ -216,7 +233,7 @@
       "KC_F12",
       "KC_INS",
       "KC_DEL",
-      "KC_F13",
+      "MACRO(1)",
       "KC_GRV",
       "KC_1",
       "KC_2",
